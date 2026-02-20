@@ -5,7 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
-</head>
+    <style>
+      #hero-section {
+        background-image: url(images/nyc-skyline.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 60vh;
+        padding: 5em
+        }
+    </style>
+
+  </head>
 <body class="m-3">
     
 <div class="ui large menu pink-menu">
@@ -22,7 +33,18 @@
     </div>
   </div>
 
-  <div class="hero-section">
+    <div class="ui inverted masthead segment" id="hero-section">
+    <!-- <img src="images/nyc-skyline.jpg" alt="City skyline at night" class="hero-image"> -->
+    <div class="ui text container">
+      <h1 class="ui huge inverted header">
+        Explore the<br>
+        World through<br>
+        Karah
+      </h1>
+      <a class="ui large blue button">Our Resorts</a>
+    </div>
+  </div>
+  <!-- <div class="hero-section">
     <img src="images/nyc-skyline.jpg" alt="City skyline at night" class="hero-image">
     <div class="ui container hero-content">
       <h1 class="ui huge inverted header">
@@ -32,7 +54,7 @@
       </h1>
       <a class="ui large blue button">Our Resorts</a>
     </div>
-  </div>
+  </div> -->
 
   <h1>Popular Destinations</h1>
   <div class="ui fluid grid">
@@ -44,7 +66,6 @@
                 <button class="ui right floated teal button">Book Now</button>
         <!-- </div> -->
     </div>
-       
     <div class="five wide column">
         <img src="images/mountains.jpg" alt="moutains" class="ui fluid image">
         <h2>Switzerland</h2>
@@ -58,6 +79,9 @@
         <button class="ui right floated teal button">Book Now</button>
     </div>
   </div>
+  <footer class="ui footer">
+
+  </footer>
 
     
 </body>
