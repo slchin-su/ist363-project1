@@ -12,13 +12,18 @@
         background-position: center;
         width: 100%;
         min-height: 60vh;
-        padding: 5em;
+        padding: 5em 2em;
+        border-radius: 0 !important;
         }
         #headerfooter {
           background-color: #b56970ff;
         }
         #logo {font-size: 2em;}
-        body {overflow-x: hidden;}
+        .ui.grid {
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+        }
+        html {overflow-x: hidden;}
     </style>
 
   </head>
@@ -38,7 +43,7 @@
   </div>
   </div>
 
-    <div class="ui inverted masthead segment" id="hero-section">
+    <div class="ui inverted segment" id="hero-section">
     <!-- <img src="images/nyc-skyline.jpg" alt="City skyline at night" class="hero-image"> -->
     <div class="ui text container">
       <h1 class="ui huge inverted header">
@@ -60,7 +65,7 @@
       <a class="ui large blue button">Our Resorts</a>
     </div>
   </div> -->
-        <div class="ui container">
+        <div class="ui vertical container">
       <h1>Popular Destinations</h1>
       <div class="ui stackable three column grid">
         <div class="column">
@@ -71,7 +76,7 @@
               <div class="content">
                 <div class="ui basic segment">
                   <h3 class="header">Sri Lanka</h3>
-                  <div class="description>">
+                  <div class="description">
                     Relax on the beach and enjoy the sun
                   </div>
                 </div>
