@@ -14,23 +14,26 @@
         height: 60vh;
         padding: 5em
         }
+        #headerfooter {
+          background-color: #b56970ff;
+        }
     </style>
 
   </head>
 <body class="m-3">
     
-<div class="ui large menu pink-menu">
-    <div class="ui container">
-      <a class="header item">
-        Karah Destinations
-      </a>
-      <div class="right menu">
-        <a class="item">Destinations</a>
-        <a class="item">Ownership</a>
-        <a class="item">About</a>
-        <a class="item">Destinations</a>
-      </div>
+<div class="ui large inverted attached menu" id="headerfooter">
+  <div class="ui container">
+    <a class="header item">
+      Karah Destinations
+    </a>
+    <div class="right menu">
+      <a class="item">Destinations</a>
+      <a class="item">Ownership</a>
+      <a class="item">About</a>
+      <a class="item">Destinations</a>
     </div>
+  </div>
   </div>
 
     <div class="ui inverted masthead segment" id="hero-section">
@@ -55,34 +58,56 @@
       <a class="ui large blue button">Our Resorts</a>
     </div>
   </div> -->
-
-  <h1>Popular Destinations</h1>
-  <div class="ui fluid grid">
-    <div class="five wide column">
-        <!-- <div class="ui fluid teal card"> -->
-             <img src="images/beach.jpg" alt="beach" class="ui fluid image">
-                <h2>Sri Lanka</h2>
-                <p>caption</p>
-                <button class="ui right floated teal button">Book Now</button>
-        <!-- </div> -->
-    </div>
-    <div class="five wide column">
-        <img src="images/mountains.jpg" alt="moutains" class="ui fluid image">
-        <h2>Switzerland</h2>
-        <p>caption</p>
-        <button class="ui right floated teal button">Book Now</button>
-    </div>
-    <div class="five wide column">
-        <img src="images/golden-gate-bridge.jpg" alt="San Fransisco" class="ui fluid image">
-        <h2>San Fransisco</h2>
-        <p>caption</p>
-        <button class="ui right floated teal button">Book Now</button>
-    </div>
+    <div class="ui container">
+      <h1>Popular Destinations</h1>
+      <div class="ui fluid grid">
+        <div class="five wide column">
+            <div class="ui fluid card">
+              <div class="image">
+                <img src="images/beach.jpg" alt="beach" class="ui fluid image">
+              </div>
+              <div class="content">
+                <h1 class="header">Sri Lanka</h1>
+                <div class="description>">
+                  caption
+                </div>
+                <button class="ui right floated blue button">Book Now</button>
+              </div>
+            </div>
+        </div>
+        <div class="five wide column">
+            <div class="ui fluid card">
+              <div class="image">
+                <img src="images/mountains.jpg" alt="moutains" class="ui fluid image">
+              </div>
+              <div class="content">
+                <h1 class="header">Switzerland</h1>
+                <div class="description>">
+                  caption
+                </div>
+                <button class="ui right floated blue button">Book Now</button>
+              </div>
+            </div>
+        </div>
+        <div class="five wide column">
+            <div class="ui fluid card">
+              <div class="image">
+                <img src="images/golden-gate-bridge.jpg" alt="San Fransisco" class="ui fluid image">
+              </div>
+              <div class="content">
+                <h1 class="header">San Fransisco</h1>
+                <div class="description>">
+                  caption
+                </div>
+                <button class="ui right floated blue button">Book Now</button>
+              </div>
+            </div>
+        </div>
+      </div>
   </div>
-  <footer class="ui footer">
+  <footer>
+    <div class="ui large inverted attached menu" id="headerfooter">
 
   </footer>
-
-    
 </body>
 </html>
